@@ -1,0 +1,677 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>545</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>books.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="bookID" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="title" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="authors" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="average_rating" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="isbn" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="isbn13" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="language_code" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="# num_pages" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="ratings_count" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+            <Field name="text_reviews_count" size="545" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\books.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_17944_cbe86dc31b144af5ab4fb6cc83261a32_\Engine_7760_6fbb2b82edf4425aad9c459b90db445a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>512</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dataset_bestsellers.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="authors" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="bestsellers-rank" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="categories" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="description" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="dimension-x" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="dimension-y" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="dimension-z" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="edition" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="edition-statement" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="for-ages" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="format" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="id" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="illustrations-note" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="image-checksum" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="image-path" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="image-url" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="imprint" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="index-date" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="isbn10" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="isbn13" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="lang" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="publication-date" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="publication-place" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="rating-avg" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="rating-count" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="title" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="url" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+            <Field name="weight" size="512" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\dataset_bestsellers.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_17944_cbe86dc31b144af5ab4fb6cc83261a32_\Engine_7760_5533b415f66947a88d37b259ab3caf8e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>6000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>7k_books.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="isbn13" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="isbn10" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="title" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="subtitle" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="authors" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="categories" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="thumbnail" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="description" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="published_year" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="average_rating" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="num_pages" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+            <Field name="ratings_count" size="6000" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M2\M2 Practical Challenge_ Creating Your Own Alteryx Workflow\7k_books.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_17944_cbe86dc31b144af5ab4fb6cc83261a32_\Engine_7760_89d170ff26da4e159cfefc8dc580843a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="title" selected="True" />
+            <SelectField field="authors" selected="False" />
+            <SelectField field="bestsellers-rank" selected="True" type="Int64" size="8" />
+            <SelectField field="categories" selected="False" />
+            <SelectField field="description" selected="False" />
+            <SelectField field="dimension-x" selected="False" />
+            <SelectField field="dimension-y" selected="False" />
+            <SelectField field="dimension-z" selected="False" />
+            <SelectField field="edition" selected="False" />
+            <SelectField field="edition-statement" selected="False" />
+            <SelectField field="for-ages" selected="False" />
+            <SelectField field="format" selected="False" />
+            <SelectField field="id" selected="False" />
+            <SelectField field="illustrations-note" selected="False" />
+            <SelectField field="image-checksum" selected="False" />
+            <SelectField field="image-path" selected="False" />
+            <SelectField field="image-url" selected="False" />
+            <SelectField field="imprint" selected="False" />
+            <SelectField field="index-date" selected="False" />
+            <SelectField field="isbn10" selected="True" type="Int32" size="4" />
+            <SelectField field="isbn13" selected="True" type="Int64" size="8" />
+            <SelectField field="lang" selected="True" />
+            <SelectField field="publication-date" selected="False" />
+            <SelectField field="publication-place" selected="False" />
+            <SelectField field="rating-avg" selected="False" />
+            <SelectField field="rating-count" selected="False" />
+            <SelectField field="url" selected="False" />
+            <SelectField field="weight" selected="False" />
+            <SelectField field="User Rating" selected="False" type="Double" size="8" />
+            <SelectField field="Reviews" selected="False" type="Int32" size="4" />
+            <SelectField field="Price" selected="False" type="Double" size="8" />
+            <SelectField field="Year" selected="False" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="bookID" selected="False" />
+            <SelectField field="title" selected="True" />
+            <SelectField field="authors" selected="True" />
+            <SelectField field="isbn" selected="True" rename="isbn10" type="Int32" size="4" />
+            <SelectField field="isbn13" selected="True" type="Int64" size="8" />
+            <SelectField field="# num_pages" selected="True" rename="num_pages" type="Int32" size="4" />
+            <SelectField field="average_rating" selected="True" type="Double" size="8" />
+            <SelectField field="ratings_count" selected="True" type="Int32" size="4" />
+            <SelectField field="language_code" selected="False" />
+            <SelectField field="text_reviews_count" selected="False" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="title" selected="True" />
+            <SelectField field="authors" selected="True" />
+            <SelectField field="isbn10" selected="True" type="Int32" size="4" />
+            <SelectField field="isbn13" selected="True" type="Int64" size="8" />
+            <SelectField field="published_year" selected="False" type="Int32" size="4" />
+            <SelectField field="num_pages" selected="True" type="Int32" size="4" />
+            <SelectField field="average_rating" selected="True" type="Double" size="8" />
+            <SelectField field="ratings_count" selected="True" type="Int32" size="4" />
+            <SelectField field="subtitle" selected="False" />
+            <SelectField field="description" selected="False" />
+            <SelectField field="categories" selected="False" />
+            <SelectField field="thumbnail" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="354" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="450" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"title","authors"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="546" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="isbn13" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="678" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="isbn13" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="isbn13" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_title" selected="True" input="Left_" />
+                <SelectField field="Right_title" selected="False" rename="Right_title" input="Right_" />
+                <SelectField field="Left_authors" selected="True" input="Left_" />
+                <SelectField field="Left_isbn10" selected="True" input="Left_" />
+                <SelectField field="Right_isbn10" selected="False" rename="Right_isbn10" input="Right_" />
+                <SelectField field="Left_isbn13" selected="True" input="Left_" />
+                <SelectField field="Right_isbn13" selected="False" rename="Right_isbn13" input="Right_" />
+                <SelectField field="Left_num_pages" selected="True" input="Left_" />
+                <SelectField field="Left_average_rating" selected="True" input="Left_" />
+                <SelectField field="Left_ratings_count" selected="True" input="Left_" />
+                <SelectField field="Right_bestsellers-rank" selected="True" input="Right_" />
+                <SelectField field="Right_lang" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>bestsellers-rank</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-09-25 13:03:23</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2021-09-25 13:03:23</StartDate>
+              <EndDate>2021-09-25 13:03:23</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([bestsellers-rank])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="774" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="bestsellers-rank" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>bestsellers-rank - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_17944_cbe86dc31b144af5ab4fb6cc83261a32_\Engine_7760_82b4e7e3875e40b7a4060c3dc2e79eaa_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="894" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>10</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 10</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Unique" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alex_C_Parra_M2 Practical Challenge Creating Your Own Alteryx Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="36f79648-3bce-4ae9-94ca-1e47961b93e9" />
+      <Telemetry>
+        <PreviousWorkflowId value="fd3cc377-5747-4823-b30a-6f4f10577d8d" />
+        <OriginWorkflowId value="fd3cc377-5747-4823-b30a-6f4f10577d8d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

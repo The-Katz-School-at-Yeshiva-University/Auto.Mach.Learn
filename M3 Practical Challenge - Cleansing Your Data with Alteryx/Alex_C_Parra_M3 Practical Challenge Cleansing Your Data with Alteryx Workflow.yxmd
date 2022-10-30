@@ -1,0 +1,2854 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="114" y="1170" width="278" height="265" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Import the fundamentals</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="151" y="1279" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>fundamentals.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Ticker Symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Period Ending" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Accounts Payable" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Accounts Receivable" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Add'l income/expense items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="After Tax ROE" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Capital Expenditures" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Capital Surplus" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Cash Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Cash and Cash Equivalents" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Changes in Inventories" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Common Stocks" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Cost of Revenue" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Current Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Deferred Asset Charges" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Deferred Liability Charges" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Depreciation" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Earnings Before Interest and Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Earnings Before Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Effect of Exchange Rate" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Equity Earnings/Loss Unconsolidated Subsidiary" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Fixed Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Goodwill" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Gross Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Gross Profit" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Income Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Intangible Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Interest Expense" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Inventory" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Long-Term Debt" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Long-Term Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Minority Interest" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Misc. Stocks" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Borrowings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Cash Flow" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Cash Flow-Operating" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Cash Flows-Financing" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Cash Flows-Investing" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Income" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Income Adjustments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Income Applicable to Common Shareholders" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Income-Cont. Operations" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Net Receivables" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Non-Recurring Items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Operating Income" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Operating Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Current Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Current Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Financing Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Investing Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Operating Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Other Operating Items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Pre-Tax Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Pre-Tax ROE" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Profit Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Quick Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Research and Development" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Retained Earnings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Sale and Purchase of Stock" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Sales, General and Admin." size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Short-Term Debt / Current Portion of Long-Term Debt" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Short-Term Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Current Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Current Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Liabilities &amp; Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Total Revenue" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Treasury Stock" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="For Year" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Earnings Per Share" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+                <Field name="Estimated Shares Outstanding" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="271" y="1351" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_7060_e8d11aca5c53473b9d36824ee61d8b95_\Engine_13836_b7fb510933514877b0507b84b312158f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="271" y="1279" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="Period Ending" selected="True" type="Date" size="10" />
+                <SelectField field="Accounts Payable" selected="True" type="Double" size="8" />
+                <SelectField field="Accounts Receivable" selected="True" type="Double" size="8" />
+                <SelectField field="Add'l income/expense items" selected="True" type="Double" size="8" />
+                <SelectField field="After Tax ROE" selected="True" type="Double" size="8" />
+                <SelectField field="Capital Expenditures" selected="True" type="Double" size="8" />
+                <SelectField field="Capital Surplus" selected="True" type="Double" size="8" />
+                <SelectField field="Cash Ratio" selected="True" type="Double" size="8" />
+                <SelectField field="Cash and Cash Equivalents" selected="True" type="Double" size="8" />
+                <SelectField field="Changes in Inventories" selected="True" type="Double" size="8" />
+                <SelectField field="Common Stocks" selected="True" type="Double" size="8" />
+                <SelectField field="Cost of Revenue" selected="True" type="Double" size="8" />
+                <SelectField field="Current Ratio" selected="True" type="Double" size="8" />
+                <SelectField field="Deferred Asset Charges" selected="True" type="Double" size="8" />
+                <SelectField field="Deferred Liability Charges" selected="True" type="Double" size="8" />
+                <SelectField field="Depreciation" selected="True" type="Double" size="8" />
+                <SelectField field="Earnings Before Interest and Tax" selected="True" type="Double" size="8" />
+                <SelectField field="Earnings Before Tax" selected="True" type="Double" size="8" />
+                <SelectField field="Effect of Exchange Rate" selected="True" type="Double" size="8" />
+                <SelectField field="Equity Earnings/Loss Unconsolidated Subsidiary" selected="True" type="Double" size="8" />
+                <SelectField field="Fixed Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Goodwill" selected="True" type="Double" size="8" />
+                <SelectField field="Gross Margin" selected="True" type="Double" size="8" />
+                <SelectField field="Gross Profit" selected="True" type="Double" size="8" />
+                <SelectField field="Income Tax" selected="True" type="Double" size="8" />
+                <SelectField field="Intangible Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Interest Expense" selected="True" type="Double" size="8" />
+                <SelectField field="Inventory" selected="True" type="Double" size="8" />
+                <SelectField field="Investments" selected="True" type="Double" size="8" />
+                <SelectField field="Liabilities" selected="True" type="Double" size="8" />
+                <SelectField field="Long-Term Debt" selected="True" type="Double" size="8" />
+                <SelectField field="Long-Term Investments" selected="True" type="Double" size="8" />
+                <SelectField field="Minority Interest" selected="True" type="Double" size="8" />
+                <SelectField field="Misc. Stocks" selected="True" type="Double" size="8" />
+                <SelectField field="Net Borrowings" selected="True" type="Double" size="8" />
+                <SelectField field="Net Cash Flow" selected="True" type="Double" size="8" />
+                <SelectField field="Net Cash Flow-Operating" selected="True" type="Double" size="8" />
+                <SelectField field="Net Cash Flows-Financing" selected="True" type="Double" size="8" />
+                <SelectField field="Net Cash Flows-Investing" selected="True" type="Double" size="8" />
+                <SelectField field="Net Income" selected="True" type="Double" size="8" />
+                <SelectField field="Net Income Adjustments" selected="True" type="Double" size="8" />
+                <SelectField field="Net Income Applicable to Common Shareholders" selected="True" type="Double" size="8" />
+                <SelectField field="Net Income-Cont. Operations" selected="True" type="Double" size="8" />
+                <SelectField field="Net Receivables" selected="True" type="Double" size="8" />
+                <SelectField field="Non-Recurring Items" selected="True" type="Double" size="8" />
+                <SelectField field="Operating Income" selected="True" type="Double" size="8" />
+                <SelectField field="Operating Margin" selected="True" type="Double" size="8" />
+                <SelectField field="Other Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Other Current Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Other Current Liabilities" selected="True" type="Double" size="8" />
+                <SelectField field="Other Equity" selected="True" type="Double" size="8" />
+                <SelectField field="Other Financing Activities" selected="True" type="Double" size="8" />
+                <SelectField field="Other Investing Activities" selected="True" type="Double" size="8" />
+                <SelectField field="Other Liabilities" selected="True" type="Double" size="8" />
+                <SelectField field="Other Operating Activities" selected="True" type="Double" size="8" />
+                <SelectField field="Other Operating Items" selected="True" type="Double" size="8" />
+                <SelectField field="Pre-Tax Margin" selected="True" type="Double" size="8" />
+                <SelectField field="Pre-Tax ROE" selected="True" type="Double" size="8" />
+                <SelectField field="Profit Margin" selected="True" type="Double" size="8" />
+                <SelectField field="Quick Ratio" selected="True" type="Double" size="8" />
+                <SelectField field="Research and Development" selected="True" type="Double" size="8" />
+                <SelectField field="Retained Earnings" selected="True" type="Double" size="8" />
+                <SelectField field="Sale and Purchase of Stock" selected="True" type="Double" size="8" />
+                <SelectField field="Sales, General and Admin." selected="True" type="Double" size="8" />
+                <SelectField field="Short-Term Debt / Current Portion of Long-Term Debt" selected="True" type="Double" size="8" />
+                <SelectField field="Short-Term Investments" selected="True" type="Double" size="8" />
+                <SelectField field="Total Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Total Current Assets" selected="True" type="Double" size="8" />
+                <SelectField field="Total Current Liabilities" selected="True" type="Double" size="8" />
+                <SelectField field="Total Equity" selected="True" type="Double" size="8" />
+                <SelectField field="Total Liabilities" selected="True" type="Double" size="8" />
+                <SelectField field="Total Liabilities &amp; Equity" selected="True" type="Double" size="8" />
+                <SelectField field="Total Revenue" selected="True" type="Double" size="8" />
+                <SelectField field="Treasury Stock" selected="True" type="Double" size="8" />
+                <SelectField field="For Year" selected="True" type="Int16" size="2" />
+                <SelectField field="Earnings Per Share" selected="True" type="Double" size="8" />
+                <SelectField field="Estimated Shares Outstanding" selected="True" type="Double" size="8" />
+                <SelectField field="For Year1" selected="False" rename="For Year" />
+                <SelectField field="For Year2" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="139" y="1219" width="228" height="60" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Import some fundamental data about each company. 
+Convert the date into date format and each variable into a double type.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="510" y="846" width="734" height="841" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>NY Stock Exchange Companies by State and City</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="630" y="918" width="576" height="372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>by Address</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="33">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="967" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Address of Headquarters" action="GroupBy" rename="Address of Headquarters" />
+                    <SummarizeField field="Address of Headquarters" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Number of companies by Address</AnnotationText>
+                  <DefaultAnnotationText>Number of companies by Address</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="49">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="1063" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Address of Headquarters" action="GroupBy" rename="Address of Headquarters" />
+                    <SummarizeField field="Net Income" action="Sum" rename="Sum_Net Income" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Net income by the Companies by Address</AnnotationText>
+                  <DefaultAnnotationText>Net income by the Companies from each States</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="50">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="1159" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Address of Headquarters" action="GroupBy" rename="Address of Headquarters" />
+                    <SummarizeField field="Long-Term Debt" action="Sum" rename="Sum_Long-Term Debt" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Long-Term Debt by the Companies by Address</AnnotationText>
+                  <DefaultAnnotationText>Long-Term Debt by the Companies from each States</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="51">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+                <Position x="811" y="1075" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <JoinByRecPos value="False" />
+                  <JoinFields>
+                    <JoinInfo connection="#1">
+                      <Field field="Address of Headquarters" />
+                    </JoinInfo>
+                    <JoinInfo connection="#2">
+                      <Field field="Address of Headquarters" />
+                    </JoinInfo>
+                    <JoinInfo connection="#3">
+                      <Field field="Address of Headquarters" />
+                    </JoinInfo>
+                  </JoinFields>
+                  <CartesianMode>Error</CartesianMode>
+                  <OutputJoinOnly value="False" />
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Input_#1_Count" selected="True" rename="N of Headquarters" />
+                        <SelectField field="Input_#2_Address of Headquarters" selected="False" rename="Input_#2_Address of Headquarters" />
+                        <SelectField field="Input_#2_Sum_Net Income" selected="True" rename="Sum Net Income" />
+                        <SelectField field="Input_#3_Address of Headquarters" selected="False" rename="Input_#3_Address of Headquarters" />
+                        <SelectField field="Input_#3_Sum_Long-Term Debt" selected="True" rename="Sum Long-Term Debt" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+            </Node>
+            <Node ToolID="52">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="895" y="1075" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="N of Headquarters" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>N of Headquarters - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="53">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+                <Position x="991" y="1075" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>First</Mode>
+                  <N>10</N>
+                  <GroupFields orderChanged="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>First 10</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+            </Node>
+            <Node ToolID="54">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1075" y="1075" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File FileFormat="19" MaxRecords="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Output data\top_10_Address_by_Number_of_companies.yxdb</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <NoSpatialIndex>False</NoSpatialIndex>
+                    <SaveSource>True</SaveSource>
+                    <WriteCompatibleVersion>False</WriteCompatibleVersion>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>top_10_Address_by_Number_of_companies.yxdb</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="113">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="775" y="967" width="396" height="96" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Make use of the Summarize  tool and the "Address of Headquarters" to obtain information about the number of companies in each city, the total net income of the companies in each city and the total Long-Term Debt of the companies in each City.
+
+Then join all of the data, sort by the numbers of headquarters in each city and save the top 10.</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="630" y="1290" width="576" height="372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>by State</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="25">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="1339" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="State" action="GroupBy" rename="State" />
+                    <SummarizeField field="State" action="Count" rename="Count" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Number of companies by States</AnnotationText>
+                  <DefaultAnnotationText>dsfdfs</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="41">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="1435" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="State" action="GroupBy" rename="State" />
+                    <SummarizeField field="Net Income" action="Sum" rename="Sum_Net Income" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Net income by the Companies from each States</AnnotationText>
+                  <DefaultAnnotationText>Net income by the Companies from each States</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="655" y="1531" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="State" action="GroupBy" rename="State" />
+                    <SummarizeField field="Long-Term Debt" action="Sum" rename="Sum_Long-Term Debt" />
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <AnnotationText>Long-Term Debt by the Companies from each States</AnnotationText>
+                  <DefaultAnnotationText>Long-Term Debt by the Companies from each States</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="45">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+                <Position x="811" y="1447" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <JoinByRecPos value="False" />
+                  <JoinFields>
+                    <JoinInfo connection="#1">
+                      <Field field="State" />
+                    </JoinInfo>
+                    <JoinInfo connection="#2">
+                      <Field field="State" />
+                    </JoinInfo>
+                    <JoinInfo connection="#3">
+                      <Field field="State" />
+                    </JoinInfo>
+                  </JoinFields>
+                  <CartesianMode>Error</CartesianMode>
+                  <OutputJoinOnly value="False" />
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Input_#1_Count" selected="True" rename="N of Headquarters" />
+                        <SelectField field="Input_#2_State" selected="False" rename="Input_#2_State" />
+                        <SelectField field="Input_#2_Sum_Net Income" selected="True" rename="Sum Net Income" />
+                        <SelectField field="Input_#3_State" selected="False" rename="Input_#3_State" />
+                        <SelectField field="Input_#3_Sum_Long-Term Debt" selected="True" rename="Sum Long-Term Debt" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+            </Node>
+            <Node ToolID="46">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="895" y="1447" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="N of Headquarters" order="Descending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>N of Headquarters - Descending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="47">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+                <Position x="991" y="1447" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>First</Mode>
+                  <N>10</N>
+                  <GroupFields orderChanged="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>First 10</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+            </Node>
+            <Node ToolID="48">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1075" y="1447" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File FileFormat="19" MaxRecords="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Output data\top_10_States_by_Number_of_companies.yxdb</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <NoSpatialIndex>False</NoSpatialIndex>
+                    <SaveSource>True</SaveSource>
+                    <WriteCompatibleVersion>False</WriteCompatibleVersion>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>top_10_States_by_Number_of_companies.yxdb</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+            <Node ToolID="114">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="799" y="1363" width="348" height="40" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>It do the same as the Address box, but for each States</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="535" y="1219" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Ticker Symbol" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Ticker Symbol" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Date first added" selected="False" input="Left_" />
+                    <SelectField field="Right_Ticker Symbol" selected="False" rename="Right_Ticker Symbol" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607" y="895" width="612" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Join the fundamental variable with the information about each securities.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="509" y="54" width="1240" height="790" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Stochastic RSI</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="558" y="137" width="1094" height="266" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Formula</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="78">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1531" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Round(([RSI]-[min_RSI]) / ([max_RSI]-[min_RSI]),0.01)" field="Stochastic RSI" size="8" type="Double" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Stochastic RSI = Round(([RSI]-[min_RSI]) / ([max_RSI]-[min_RSI]),0.01)
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="77">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="1423" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>date</UpdateField_Name>
+                  <CreateField_Name>max_RSI</CreateField_Name>
+                  <CreateField_Type>Double</CreateField_Type>
+                  <CreateField_Size>8</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="13" />
+                  <Expression>Max([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-9:RSI],[Row-8:RSI],[Row-7:RSI],[Row-6:RSI],[Row-5:RSI],[Row-4:RSI],[Row-3:RSI],[Row-2:RSI],[Row-1:RSI],[RSI])</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Max([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="76">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="1315" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>date</UpdateField_Name>
+                  <CreateField_Name>min_RSI</CreateField_Name>
+                  <CreateField_Type>Double</CreateField_Type>
+                  <CreateField_Size>8</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="13" />
+                  <Expression>Min([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-9:RSI],[Row-8:RSI],[Row-7:RSI],[Row-6:RSI],[Row-5:RSI],[Row-4:RSI],[Row-3:RSI],[Row-2:RSI],[Row-1:RSI],[RSI])</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Min([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="74">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1207" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Round(100.0-(100.0/(1.0 +[RS])),0.000001)&#xA;" field="RSI" size="8" type="Double" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[RSI = Round(100.0-(100.0/(1.0 +[RS])),0.000001)
+
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="75">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1099" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="Round([AVG_Gain]/[AVG_Loss],0.000001)" field="RS" size="8" type="Double" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[RS = Round([AVG_Gain]/[AVG_Loss],0.000001)
+]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="73">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="991" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>date</UpdateField_Name>
+                  <CreateField_Name>AVG_Loss</CreateField_Name>
+                  <CreateField_Type>Double</CreateField_Type>
+                  <CreateField_Size>8</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="13" />
+                  <Expression>Abs(Round(AVERAGE([Row-13:DOWN],[Row-12:DOWN],[Row-11:DOWN],[Row-10:DOWN],[Row-9:DOWN],[Row-8:DOWN],[Row-7:DOWN],[Row-6:DOWN],[Row-5:DOWN],[Row-4:DOWN],[Row-3:DOWN],[Row-2:DOWN],[Row-1:DOWN],[DOWN]),0.000001))</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Abs(Round(AVERAGE([Row-13:DOWN],[Row-12:DOWN],[Row-11:DOWN],[...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="72">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="883" y="186" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>date</UpdateField_Name>
+                  <CreateField_Name>AVG_Gain</CreateField_Name>
+                  <CreateField_Type>Double</CreateField_Type>
+                  <CreateField_Size>8</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="13" />
+                  <Expression>Round(AVERAGE([Row-13:UP],[Row-12:UP],[Row-11:UP],[Row-10:UP],[Row-9:UP],[Row-8:UP],[Row-7:UP],[Row-6:UP],[Row-5:UP],[Row-4:UP],[Row-3:UP],[Row-2:UP],[Row-1:UP],[UP]),0.000001)</Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Round(AVERAGE([Row-13:UP],[Row-12:UP],[Row-11:UP],[Row-10:UP]...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="71">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="775" y="187" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="IF [diff]&lt;0.0 THEN 0.0&#xA;ELSE [diff]&#xA;ENDIF" field="UP" size="8" type="Double" />
+                    <FormulaField expression="IF [diff]&gt;0.0 THEN 0.0&#xA;ELSE [diff]&#xA;ENDIF" field="DOWN" size="8" type="Double" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>UP = IF [diff]&lt;0.0 THEN 0.0
+ELSE [diff]
+ENDIF
+DOWN = IF [diff]&gt;0.0 THEN 0.0
+ELSE...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="70">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                <Position x="679" y="186" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <UpdateField value="False" />
+                  <UpdateField_Name>date</UpdateField_Name>
+                  <CreateField_Name>diff</CreateField_Name>
+                  <CreateField_Type>Double</CreateField_Type>
+                  <CreateField_Size>8</CreateField_Size>
+                  <OtherRows>NULL</OtherRows>
+                  <NumRows value="1" />
+                  <Expression><![CDATA[Round([close]-[Row-1:close], 0.00001) ]]></Expression>
+                  <GroupByFields />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText><![CDATA[Round([close]-[Row-1:close], 0.00001) ]]></DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+            </Node>
+            <Node ToolID="67">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="583" y="186" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Ticker Symbol" selected="False" />
+                    <SelectField field="Security" selected="False" />
+                    <SelectField field="open" selected="False" />
+                    <SelectField field="low" selected="False" />
+                    <SelectField field="high" selected="False" />
+                    <SelectField field="volume" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="120">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="667" y="355" width="948" height="23" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Formula to calculate the Stochastic Relative Strength Index. For more information on this formula follow this article: https://www.investopedia.com/terms/s/stochrsi.asp</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="882" y="402" width="314" height="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Apple Inc</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="60">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="907" y="463" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="date" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>date - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="81">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="1111" y="451" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="date" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="date" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="True" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_date" selected="False" input="Left_" />
+                        <SelectField field="Left_close" selected="False" input="Left_" />
+                        <SelectField field="Left_diff" selected="False" input="Left_" />
+                        <SelectField field="Left_UP" selected="False" input="Left_" />
+                        <SelectField field="Left_DOWN" selected="False" input="Left_" />
+                        <SelectField field="Left_AVG_Gain" selected="False" input="Left_" />
+                        <SelectField field="Left_AVG_Loss" selected="False" input="Left_" />
+                        <SelectField field="Left_RS" selected="False" input="Left_" />
+                        <SelectField field="Left_RSI" selected="False" input="Left_" />
+                        <SelectField field="Left_min_RSI" selected="False" input="Left_" />
+                        <SelectField field="Left_max_RSI" selected="False" input="Left_" />
+                        <SelectField field="Right_date" selected="True" input="Right_" />
+                        <SelectField field="Right_Ticker Symbol" selected="True" input="Right_" />
+                        <SelectField field="Right_Security" selected="True" input="Right_" />
+                        <SelectField field="Right_open" selected="True" input="Right_" />
+                        <SelectField field="Right_close" selected="True" input="Right_" />
+                        <SelectField field="Right_low" selected="True" input="Right_" />
+                        <SelectField field="Right_high" selected="True" input="Right_" />
+                        <SelectField field="Right_volume" selected="True" input="Right_" />
+                        <SelectField field="Left_Stochastic RSI" selected="True" input="Left_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="118">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="907" y="535" width="264" height="40" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Calculate the StocRSI for "Apple Inc" and add it to a new column</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1230" y="450" width="494" height="369" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Represent the data</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="97">
+              <GuiSettings Plugin="PlotlyCharting">
+                <Position x="1543" y="583" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ChartingFields>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>Price&amp;nbsp;</name>
+                      <orientation>v</orientation>
+                      <ysrc>close</ysrc>
+                      <xsrc>date</xsrc>
+                      <yaxis>y2</yaxis>
+                      <line>
+                        <width>2</width>
+                      </line>
+                    </Traces>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>StocRSI</name>
+                      <xsrc>date</xsrc>
+                      <ysrc>Stochastic RSI</ysrc>
+                      <autocolorscale>true</autocolorscale>
+                      <boxpoints>false</boxpoints>
+                      <marker>
+                        <size>6</size>
+                        <line>
+                          <width>0</width>
+                        </line>
+                      </marker>
+                      <line>
+                        <width>1</width>
+                        <color>rgb(240, 135, 54)</color>
+                      </line>
+                      <hoverinfo>x+y</hoverinfo>
+                    </Traces>
+                    <Layout>
+                      <title>
+                        <text>
+                        </text>
+                      </title>
+                      <font>
+                        <family>sans-serif</family>
+                        <size>12</size>
+                      </font>
+                      <autosize>false</autosize>
+                      <width>700</width>
+                      <height>849</height>
+                      <showlegend>true</showlegend>
+                      <hovermode>closest</hovermode>
+                      <xaxis>
+                        <range>2009-12-31 22:50:15.0626</range>
+                        <range>2018-01-01 11:11:14.6738</range>
+                        <autorange>false</autorange>
+                        <title>
+                          <text>date</text>
+                        </title>
+                        <tickfont>
+                          <size>12</size>
+                        </tickfont>
+                        <nticks>0</nticks>
+                        <type>date</type>
+                        <showline>false</showline>
+                        <showgrid>true</showgrid>
+                        <rangeselector>
+                          <visible>false</visible>
+                          <font>
+                            <size>12</size>
+                          </font>
+                          <borderwidth>0</borderwidth>
+                          <x>0</x>
+                          <y>1.02</y>
+                        </rangeselector>
+                      </xaxis>
+                      <yaxis>
+                        <range>0</range>
+                        <range>12</range>
+                        <autorange>false</autorange>
+                        <title>
+                          <text>close</text>
+                        </title>
+                        <type>linear</type>
+                        <showticklabels>false</showticklabels>
+                        <tickfont>
+                          <size>12</size>
+                        </tickfont>
+                      </yaxis>
+                      <legend>
+                        <font>
+                          <size>12</size>
+                        </font>
+                        <borderwidth>0</borderwidth>
+                      </legend>
+                      <yaxis2>
+                        <side>right</side>
+                        <showgrid>false</showgrid>
+                        <overlaying>y</overlaying>
+                        <type>linear</type>
+                        <range>0</range>
+                        <range>736</range>
+                        <autorange>false</autorange>
+                      </yaxis2>
+                    </Layout>
+                  </ChartingFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+            </Node>
+            <Node ToolID="99">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+                <Position x="1255" y="583" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <IsFrom value="True" />
+                  <InputFieldName>date</InputFieldName>
+                  <Language>English</Language>
+                  <Format>yyyy-MM-dd</Format>
+                  <OutputFieldName>DateTime_Out</OutputFieldName>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Convert date To:
+yyyy-MM-dd</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+            </Node>
+            <Node ToolID="100">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1339" y="583" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="date" selected="False" />
+                    <SelectField field="DateTime_Out" selected="True" rename="date" />
+                    <SelectField field="close" selected="True" />
+                    <SelectField field="Stochastic RSI" selected="True" />
+                    <SelectField field="Ticker Symbol" selected="False" />
+                    <SelectField field="Security" selected="False" />
+                    <SelectField field="open" selected="False" />
+                    <SelectField field="low" selected="False" />
+                    <SelectField field="high" selected="False" />
+                    <SelectField field="volume" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="101">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1423" y="583" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>IsNotNull</Operator>
+                    <Field>Stochastic RSI</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-10-02 13:36:56</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2021-10-02 13:36:56</StartDate>
+                      <EndDate>2021-10-02 13:36:56</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([Stochastic RSI])</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="103">
+              <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+                <Position x="1639" y="583" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFileType />
+                  <OutputFile>D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Output data\Apple Inc.htm</OutputFile>
+                  <BatchMode value="False" />
+                  <DataField>Chart</DataField>
+                  <Separator>Continuous</Separator>
+                  <EmbedDependencies value="False" />
+                  <ShowHeader value="False" />
+                  <ShowFooter value="False" />
+                  <PortraitMode value="True" />
+                  <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+                  <DefaultStyles>
+                    <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+                  </DefaultStyles>
+                  <PNGResolution>1</PNGResolution>
+                  <PNGLargerAction>squeeze</PNGLargerAction>
+                  <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+                  <PNGTransparentBG value="False" />
+                  <PNGBackColor value="#ffffff" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+            </Node>
+            <Node ToolID="108">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+                <Position x="1255" y="703" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <IsFrom value="True" />
+                  <InputFieldName>date</InputFieldName>
+                  <Language>English</Language>
+                  <Format>yyyy-MM-dd</Format>
+                  <OutputFieldName>DateTime_Out</OutputFieldName>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Convert date To:
+yyyy-MM-dd</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+            </Node>
+            <Node ToolID="104">
+              <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+                <Position x="1639" y="703" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFileType />
+                  <OutputFile>D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Output data\Facebook.htm</OutputFile>
+                  <BatchMode value="False" />
+                  <DataField>Chart</DataField>
+                  <Separator>Continuous</Separator>
+                  <EmbedDependencies value="False" />
+                  <ShowHeader value="False" />
+                  <ShowFooter value="False" />
+                  <PortraitMode value="True" />
+                  <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+                  <DefaultStyles>
+                    <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+                  </DefaultStyles>
+                  <PNGResolution>1</PNGResolution>
+                  <PNGLargerAction>squeeze</PNGLargerAction>
+                  <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+                  <PNGTransparentBG value="False" />
+                  <PNGBackColor value="#ffffff" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+            </Node>
+            <Node ToolID="105">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1423" y="703" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>IsNotNull</Operator>
+                    <Field>Stochastic RSI</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-10-02 13:36:56</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand>
+                      </Operand>
+                      <StartDate>2021-10-02 13:36:56</StartDate>
+                      <EndDate>2021-10-02 13:36:56</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>!IsNull([Stochastic RSI])</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="106">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="1339" y="703" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="date" selected="False" />
+                    <SelectField field="DateTime_Out" selected="True" rename="date" />
+                    <SelectField field="close" selected="True" />
+                    <SelectField field="Stochastic RSI" selected="True" />
+                    <SelectField field="Ticker Symbol" selected="False" />
+                    <SelectField field="Security" selected="False" />
+                    <SelectField field="open" selected="False" />
+                    <SelectField field="low" selected="False" />
+                    <SelectField field="high" selected="False" />
+                    <SelectField field="volume" selected="False" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="107">
+              <GuiSettings Plugin="PlotlyCharting">
+                <Position x="1543" y="703" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ChartingFields>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>Price&amp;nbsp;</name>
+                      <orientation>v</orientation>
+                      <ysrc>close</ysrc>
+                      <xsrc>date</xsrc>
+                      <yaxis>y2</yaxis>
+                      <line>
+                        <width>2</width>
+                      </line>
+                    </Traces>
+                    <Traces>
+                      <type>scatter</type>
+                      <mode>lines</mode>
+                      <name>StocRSI</name>
+                      <xsrc>date</xsrc>
+                      <ysrc>Stochastic RSI</ysrc>
+                      <autocolorscale>true</autocolorscale>
+                      <boxpoints>false</boxpoints>
+                      <marker>
+                        <size>6</size>
+                        <line>
+                          <width>0</width>
+                        </line>
+                      </marker>
+                      <line>
+                        <width>1</width>
+                        <color>rgb(240, 135, 54)</color>
+                      </line>
+                      <hoverinfo>x+y</hoverinfo>
+                    </Traces>
+                    <Layout>
+                      <title>
+                        <text>
+                        </text>
+                      </title>
+                      <font>
+                        <family>sans-serif</family>
+                        <size>12</size>
+                      </font>
+                      <autosize>false</autosize>
+                      <width>700</width>
+                      <height>849</height>
+                      <showlegend>true</showlegend>
+                      <hovermode>closest</hovermode>
+                      <xaxis>
+                        <range>2009-12-31 16:02:12.2448</range>
+                        <range>2018-01-01 17:05:14.8872</range>
+                        <autorange>false</autorange>
+                        <title>
+                          <text>date</text>
+                        </title>
+                        <tickfont>
+                          <size>12</size>
+                        </tickfont>
+                        <nticks>0</nticks>
+                        <type>date</type>
+                        <showline>false</showline>
+                        <showgrid>true</showgrid>
+                        <rangeselector>
+                          <visible>false</visible>
+                          <font>
+                            <size>12</size>
+                          </font>
+                          <borderwidth>0</borderwidth>
+                          <x>0</x>
+                          <y>1.02</y>
+                        </rangeselector>
+                      </xaxis>
+                      <yaxis>
+                        <range>0</range>
+                        <range>12</range>
+                        <autorange>false</autorange>
+                        <title>
+                          <text>close</text>
+                        </title>
+                        <type>linear</type>
+                        <showgrid>true</showgrid>
+                        <showticklabels>false</showticklabels>
+                      </yaxis>
+                      <legend>
+                        <font>
+                          <size>12</size>
+                        </font>
+                        <borderwidth>0</borderwidth>
+                      </legend>
+                      <yaxis2>
+                        <side>right</side>
+                        <showgrid>false</showgrid>
+                        <overlaying>y</overlaying>
+                        <type>linear</type>
+                        <range>0</range>
+                        <range>139</range>
+                        <autorange>false</autorange>
+                      </yaxis2>
+                    </Layout>
+                  </ChartingFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="ComposerInteractiveCharting" />
+            </Node>
+            <Node ToolID="121">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="1255" y="499" width="444" height="84" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Convert the date column into a String (Its needed to create the graph ).
+
+Then select only the "date", "close" and "StocRSI" columns. Get rid of the nulls rows that have been created in the StocRSI. 
+
+After that we can plot both variables into a graph.</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="534" y="449" width="326" height="290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Obtain Prices for Selected Securities</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="559" y="582" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Security] = "Apple Inc." OR [Security] = "Facebook"</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Security] = "Apple Inc." OR [Security] = "Facebook"</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="55">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="631" y="498" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Ticker Symbol" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="Ticker Symbol" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="True" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_date" selected="True" input="Left_" />
+                        <SelectField field="Left_Ticker Symbol" selected="True" input="Left_" />
+                        <SelectField field="Right_Security" selected="True" input="Right_" />
+                        <SelectField field="Left_open" selected="True" input="Left_" />
+                        <SelectField field="Left_close" selected="True" input="Left_" />
+                        <SelectField field="Left_low" selected="True" input="Left_" />
+                        <SelectField field="Left_high" selected="True" input="Left_" />
+                        <SelectField field="Left_volume" selected="True" input="Left_" />
+                        <SelectField field="Right_Ticker Symbol" selected="False" rename="Right_Ticker Symbol" input="Right_" />
+                        <SelectField field="Right_SEC filings" selected="False" input="Right_" />
+                        <SelectField field="Right_GICS Sector" selected="False" input="Right_" />
+                        <SelectField field="Right_GICS Sub Industry" selected="False" input="Right_" />
+                        <SelectField field="Right_Address of Headquarters" selected="False" input="Right_" />
+                        <SelectField field="Right_State" selected="False" input="Right_" />
+                        <SelectField field="Right_Date first added" selected="False" input="Right_" />
+                        <SelectField field="Right_CIK" selected="False" input="Right_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="58">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="727" y="498" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>Simple</Mode>
+                  <Simple>
+                    <Operator>Contains</Operator>
+                    <Field>Security</Field>
+                    <Operands>
+                      <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                      <DateType>fixed</DateType>
+                      <PeriodDate>2021-10-02 12:02:32</PeriodDate>
+                      <PeriodType>
+                      </PeriodType>
+                      <PeriodCount>0</PeriodCount>
+                      <Operand><![CDATA[Apple ]]></Operand>
+                      <StartDate>2021-10-02 12:02:32</StartDate>
+                      <EndDate>2021-10-02 12:02:32</EndDate>
+                    </Operands>
+                  </Simple>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Contains([Security],"Apple")</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="117">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="667" y="630" width="168" height="84" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Get the prices and join them for the securities given, in this case "Apple Inc." and "Facebook"</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="559" y="103" width="1092" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>In this container, we calculate the Stochastic Relative Strength Index (StocRSI)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="1" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="882" y="593" width="314" height="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Facebook</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="83">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+                <Position x="907" y="679" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SortInfo locale="1033">
+                    <Field field="date" order="Ascending" />
+                  </SortInfo>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>date - Ascending</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+            </Node>
+            <Node ToolID="95">
+              <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+                <Position x="978" y="642" width="126" height="24" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Caption>Formula</Caption>
+                  <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+                  <Disabled value="False" />
+                  <Folded value="True" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <ChildNodes>
+                <Node ToolID="85">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                    <Position x="1951" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <FormulaFields>
+                        <FormulaField expression="Round(([RSI]-[min_RSI]) / ([max_RSI]-[min_RSI]),0.01)" field="Stochastic RSI" size="8" type="Double" />
+                      </FormulaFields>
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText><![CDATA[Stochastic RSI = Round(([RSI]-[min_RSI]) / ([max_RSI]-[min_RSI]),0.01)
+]]></DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+                </Node>
+                <Node ToolID="86">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                    <Position x="1843" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <UpdateField value="False" />
+                      <UpdateField_Name>date</UpdateField_Name>
+                      <CreateField_Name>max_RSI</CreateField_Name>
+                      <CreateField_Type>Double</CreateField_Type>
+                      <CreateField_Size>8</CreateField_Size>
+                      <OtherRows>NULL</OtherRows>
+                      <NumRows value="13" />
+                      <Expression>Max([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-9:RSI],[Row-8:RSI],[Row-7:RSI],[Row-6:RSI],[Row-5:RSI],[Row-4:RSI],[Row-3:RSI],[Row-2:RSI],[Row-1:RSI],[RSI])</Expression>
+                      <GroupByFields />
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText>Max([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-...</DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+                </Node>
+                <Node ToolID="87">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                    <Position x="1735" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <UpdateField value="False" />
+                      <UpdateField_Name>date</UpdateField_Name>
+                      <CreateField_Name>min_RSI</CreateField_Name>
+                      <CreateField_Type>Double</CreateField_Type>
+                      <CreateField_Size>8</CreateField_Size>
+                      <OtherRows>NULL</OtherRows>
+                      <NumRows value="13" />
+                      <Expression>Min([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-9:RSI],[Row-8:RSI],[Row-7:RSI],[Row-6:RSI],[Row-5:RSI],[Row-4:RSI],[Row-3:RSI],[Row-2:RSI],[Row-1:RSI],[RSI])</Expression>
+                      <GroupByFields />
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText>Min([Row-13:RSI],[Row-12:RSI],[Row-11:RSI],[Row-10:RSI],[Row-...</DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+                </Node>
+                <Node ToolID="88">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                    <Position x="1627" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <FormulaFields>
+                        <FormulaField expression="Round(100.0-(100.0/(1.0 +[RS])),0.000001)&#xA;" field="RSI" size="8" type="Double" />
+                      </FormulaFields>
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText><![CDATA[RSI = Round(100.0-(100.0/(1.0 +[RS])),0.000001)
+
+]]></DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+                </Node>
+                <Node ToolID="89">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                    <Position x="1519" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <FormulaFields>
+                        <FormulaField expression="Round([AVG_Gain]/[AVG_Loss],0.000001)" field="RS" size="8" type="Double" />
+                      </FormulaFields>
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText><![CDATA[RS = Round([AVG_Gain]/[AVG_Loss],0.000001)
+]]></DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+                </Node>
+                <Node ToolID="90">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                    <Position x="1411" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <UpdateField value="False" />
+                      <UpdateField_Name>date</UpdateField_Name>
+                      <CreateField_Name>AVG_Loss</CreateField_Name>
+                      <CreateField_Type>Double</CreateField_Type>
+                      <CreateField_Size>8</CreateField_Size>
+                      <OtherRows>NULL</OtherRows>
+                      <NumRows value="13" />
+                      <Expression>Abs(Round(AVERAGE([Row-13:DOWN],[Row-12:DOWN],[Row-11:DOWN],[Row-10:DOWN],[Row-9:DOWN],[Row-8:DOWN],[Row-7:DOWN],[Row-6:DOWN],[Row-5:DOWN],[Row-4:DOWN],[Row-3:DOWN],[Row-2:DOWN],[Row-1:DOWN],[DOWN]),0.000001))</Expression>
+                      <GroupByFields />
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText>Abs(Round(AVERAGE([Row-13:DOWN],[Row-12:DOWN],[Row-11:DOWN],[...</DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+                </Node>
+                <Node ToolID="91">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                    <Position x="1303" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <UpdateField value="False" />
+                      <UpdateField_Name>date</UpdateField_Name>
+                      <CreateField_Name>AVG_Gain</CreateField_Name>
+                      <CreateField_Type>Double</CreateField_Type>
+                      <CreateField_Size>8</CreateField_Size>
+                      <OtherRows>NULL</OtherRows>
+                      <NumRows value="13" />
+                      <Expression>Round(AVERAGE([Row-13:UP],[Row-12:UP],[Row-11:UP],[Row-10:UP],[Row-9:UP],[Row-8:UP],[Row-7:UP],[Row-6:UP],[Row-5:UP],[Row-4:UP],[Row-3:UP],[Row-2:UP],[Row-1:UP],[UP]),0.000001)</Expression>
+                      <GroupByFields />
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText>Round(AVERAGE([Row-13:UP],[Row-12:UP],[Row-11:UP],[Row-10:UP]...</DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+                </Node>
+                <Node ToolID="92">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                    <Position x="1195" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <FormulaFields>
+                        <FormulaField expression="IF [diff]&lt;0.0 THEN 0.0&#xA;ELSE [diff]&#xA;ENDIF" field="UP" size="8" type="Double" />
+                        <FormulaField expression="IF [diff]&gt;0.0 THEN 0.0&#xA;ELSE [diff]&#xA;ENDIF" field="DOWN" size="8" type="Double" />
+                      </FormulaFields>
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText>UP = IF [diff]&lt;0.0 THEN 0.0
+ELSE [diff]
+ENDIF
+DOWN = IF [diff]&gt;0.0 THEN 0.0
+ELSE...</DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+                </Node>
+                <Node ToolID="93">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+                    <Position x="1099" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <UpdateField value="False" />
+                      <UpdateField_Name>date</UpdateField_Name>
+                      <CreateField_Name>diff</CreateField_Name>
+                      <CreateField_Type>Double</CreateField_Type>
+                      <CreateField_Size>8</CreateField_Size>
+                      <OtherRows>NULL</OtherRows>
+                      <NumRows value="1" />
+                      <Expression><![CDATA[Round([close]-[Row-1:close], 0.00001) ]]></Expression>
+                      <GroupByFields />
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText><![CDATA[Round([close]-[Row-1:close], 0.00001) ]]></DefaultAnnotationText>
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+                </Node>
+                <Node ToolID="94">
+                  <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                    <Position x="1003" y="691" />
+                  </GuiSettings>
+                  <Properties>
+                    <Configuration>
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Ticker Symbol" selected="False" />
+                        <SelectField field="Security" selected="False" />
+                        <SelectField field="open" selected="False" />
+                        <SelectField field="low" selected="False" />
+                        <SelectField field="high" selected="False" />
+                        <SelectField field="volume" selected="False" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                    <Annotation DisplayMode="0">
+                      <Name />
+                      <DefaultAnnotationText />
+                      <Left value="False" />
+                    </Annotation>
+                  </Properties>
+                  <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+                </Node>
+              </ChildNodes>
+            </Node>
+            <Node ToolID="96">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="1111" y="667" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="date" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="date" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="True" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_date" selected="False" input="Left_" />
+                        <SelectField field="Left_close" selected="False" input="Left_" />
+                        <SelectField field="Left_diff" selected="False" input="Left_" />
+                        <SelectField field="Left_UP" selected="False" input="Left_" />
+                        <SelectField field="Left_DOWN" selected="False" input="Left_" />
+                        <SelectField field="Left_AVG_Gain" selected="False" input="Left_" />
+                        <SelectField field="Left_AVG_Loss" selected="False" input="Left_" />
+                        <SelectField field="Left_RS" selected="False" input="Left_" />
+                        <SelectField field="Left_RSI" selected="False" input="Left_" />
+                        <SelectField field="Left_min_RSI" selected="False" input="Left_" />
+                        <SelectField field="Left_max_RSI" selected="False" input="Left_" />
+                        <SelectField field="Right_date" selected="True" input="Right_" />
+                        <SelectField field="Right_Ticker Symbol" selected="True" input="Right_" />
+                        <SelectField field="Right_Security" selected="True" input="Right_" />
+                        <SelectField field="Right_open" selected="True" input="Right_" />
+                        <SelectField field="Right_close" selected="True" input="Right_" />
+                        <SelectField field="Right_low" selected="True" input="Right_" />
+                        <SelectField field="Right_high" selected="True" input="Right_" />
+                        <SelectField field="Right_volume" selected="True" input="Right_" />
+                        <SelectField field="Left_Stochastic RSI" selected="True" input="Left_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="119">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="907" y="751" width="264" height="40" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>Calculate the StocRSI for "Facebook" and add it to a new column</Text>
+                  <Font name="Arial" size="8.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="0" />
+                  <Justification Justification="4" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="78" y="306" width="350" height="301" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Import the evolution of Prices</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="103" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>prices.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="date" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="open" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="close" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="low" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="high" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+                <Field name="volume" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="319" y="523" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_7060_e8d11aca5c53473b9d36824ee61d8b95_\Engine_13836_f5fb8e9eece54e4d820443d6986b3341_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="223" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>date</InputFieldName>
+              <Language>English</Language>
+              <Format>yyyy-MM-dd</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert date From:
+yyyy-MM-dd</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="319" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="date" selected="False" />
+                <SelectField field="DateTime_Out" selected="True" rename="date" />
+                <SelectField field="symbol" selected="True" rename="Ticker Symbol" />
+                <SelectField field="open" selected="True" type="Double" size="8" />
+                <SelectField field="close" selected="True" type="Double" size="8" />
+                <SelectField field="low" selected="True" type="Double" size="8" />
+                <SelectField field="high" selected="True" type="Double" size="8" />
+                <SelectField field="volume" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="115" y="355" width="288" height="96" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Import the prices evolution of all the stocks from 2013 to 2017.
+We get the open, close, low, high and volume values for each date and ticker.
+
+We convert the date to date format. And de numerical variables to double</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="786" width="421" height="289" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Import the securities</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="931" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>securities.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Ticker symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Security" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="SEC filings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="GICS Sector" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="GICS Sub Industry" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Address of Headquarters" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Date first added" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="CIK" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="187" y="991" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_7060_e8d11aca5c53473b9d36824ee61d8b95_\Engine_13836_1267ae4f21494de1961f38ce1c666fac_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="187" y="931" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Address of Headquarters</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Address of Headquarters</RootName>
+              <Delimeters value=",[" />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings>
+            <Position x="391" y="931" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Address of Headquarters","State"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="295" y="931" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Ticker symbol" selected="True" rename="Ticker Symbol" />
+                <SelectField field="Security" selected="True" />
+                <SelectField field="SEC filings" selected="True" />
+                <SelectField field="GICS Sector" selected="True" />
+                <SelectField field="GICS Sub Industry" selected="True" />
+                <SelectField field="Address of Headquarters" selected="False" />
+                <SelectField field="Address of Headquarters1" selected="True" rename="Address of Headquarters" />
+                <SelectField field="Address of Headquarters2" selected="True" rename="State" />
+                <SelectField field="Address of Headquarters3" selected="False" />
+                <SelectField field="Date first added" selected="True" type="Date" size="10" />
+                <SelectField field="CIK" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="835" width="360" height="96" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Import the companies information.
+
+Split the address information into City and State. Reorder the variable and change the name of the new created address of Headquarters and State. 
+After that we clean the data by eliminating leading and trailing white spaces.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="40" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="40" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Join" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="81" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="81" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Join" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="True" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="True" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="55" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="55" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Join" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="True" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="False" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="96" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="96" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Join" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output26" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="24" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alex_C_Parra_M3 Practical Challenge Cleansing Your Data with Alteryx Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e57f9db8-b9fe-4eeb-86f7-57c9f838c180" />
+      <Telemetry>
+        <PreviousWorkflowId value="ae4a54a7-cbde-40d0-bbd6-c33a90b26bf0" />
+        <OriginWorkflowId value="ae4a54a7-cbde-40d0-bbd6-c33a90b26bf0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

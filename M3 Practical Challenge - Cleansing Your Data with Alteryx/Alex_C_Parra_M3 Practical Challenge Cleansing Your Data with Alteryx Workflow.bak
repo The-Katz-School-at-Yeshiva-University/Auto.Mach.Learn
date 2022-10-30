@@ -1,0 +1,390 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fundamentals.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Ticker Symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Period Ending" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Accounts Payable" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Accounts Receivable" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Add'l income/expense items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="After Tax ROE" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Capital Expenditures" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Capital Surplus" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Cash Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Cash and Cash Equivalents" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Changes in Inventories" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Common Stocks" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Cost of Revenue" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Current Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Deferred Asset Charges" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Deferred Liability Charges" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Depreciation" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Earnings Before Interest and Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Earnings Before Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Effect of Exchange Rate" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Equity Earnings/Loss Unconsolidated Subsidiary" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Fixed Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Goodwill" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Gross Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Gross Profit" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Income Tax" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Intangible Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Interest Expense" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Inventory" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Long-Term Debt" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Long-Term Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Minority Interest" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Misc. Stocks" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Borrowings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Cash Flow" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Cash Flow-Operating" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Cash Flows-Financing" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Cash Flows-Investing" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Income" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Income Adjustments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Income Applicable to Common Shareholders" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Income-Cont. Operations" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Net Receivables" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Non-Recurring Items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Operating Income" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Operating Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Current Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Current Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Financing Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Investing Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Operating Activities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Other Operating Items" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Pre-Tax Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Pre-Tax ROE" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Profit Margin" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Quick Ratio" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Research and Development" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Retained Earnings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Sale and Purchase of Stock" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Sales, General and Admin." size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Short-Term Debt / Current Portion of Long-Term Debt" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Short-Term Investments" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Current Assets" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Current Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Liabilities" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Liabilities &amp; Equity" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Total Revenue" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Treasury Stock" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="For Year" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Earnings Per Share" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+            <Field name="Estimated Shares Outstanding" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\fundamentals.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>prices.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="open" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="close" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="low" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="high" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+            <Field name="volume" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\prices.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_6024_49fb1fa6ecee446ca9d9c6ba89c3d2be_\Engine_17536_3f7707c089bf45868072b1c30b830289_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_6024_49fb1fa6ecee446ca9d9c6ba89c3d2be_\Engine_17536_5652fc4e9b044223a0acb31678878000_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="101" y="5" width="308" height="253" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Input: the securities, Apple and Facebook</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>securities.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Ticker symbol" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Security" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="SEC filings" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="GICS Sector" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="GICS Sub Industry" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Address of Headquarters" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="Date first added" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+                <Field name="CIK" size="254" source="File: D:\Personal\Alex\Uni\MS IA\1 Curso\FALL\Auto.Mach.Learn\Practical Challenges\M3\M3 Practical Challenge Cleansing Your Data with Alteryx\Input data\securities.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="246" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_6024_49fb1fa6ecee446ca9d9c6ba89c3d2be_\Engine_17536_ebb8ead8a069443b96d0455d9ec72874_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="246" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Security] = "Apple Inc." OR [Security] = "Facebook"</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Security] = "Apple Inc." OR [Security] = "Facebook"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alex_C_Parra_M3 Practical Challenge Cleansing Your Data with Alteryx Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e57f9db8-b9fe-4eeb-86f7-57c9f838c180" />
+      <Telemetry>
+        <PreviousWorkflowId value="ae4a54a7-cbde-40d0-bbd6-c33a90b26bf0" />
+        <OriginWorkflowId value="ae4a54a7-cbde-40d0-bbd6-c33a90b26bf0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
